@@ -4,8 +4,13 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal TypeScript Starter
+  Gatsby Chakra 3.0 TypeScript Starter
 </h1>
+
+## ⭐️ Added
+* tsconfig root paths
+* import alias
+* Added Chakra UI 3.0 integration. Get started right away!
 
 ## 🚀 Quick start
 
@@ -14,8 +19,8 @@
     Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
 
     ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
+    # create a new Gatsby site using the Chakra 3.0 TypeScript starter
+    gatsby new my-gatsby-site <URL>
     ```
 
 2.  **Start developing.**
@@ -24,7 +29,7 @@
 
     ```shell
     cd my-gatsby-site/
-    npm run develop
+    yarn develop
     ```
 
 3.  **Open the code and start customizing!**
@@ -41,9 +46,3 @@
     - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
