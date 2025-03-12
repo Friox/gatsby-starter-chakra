@@ -16,9 +16,6 @@
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.  
-    [Gatsby CLI Installation Manual](https://www.gatsbyjs.com/docs/reference/gatsby-cli)
-
     ```shell
     # create a new Gatsby site using the Chakra 3.0 TypeScript starter
     git clone https://github.com/Friox/gatsby-starter-chakra my-gatsby-site
