@@ -21,7 +21,9 @@
 
     ```shell
     # create a new Gatsby site using the Chakra 3.0 TypeScript starter
-    gatsby new my-gatsby-site https://github.com/Friox/gatsby-starter-chakra
+    git clone https://github.com/Friox/gatsby-starter-chakra my-gatsby-site
+    cd my-gatsby-site
+    yarn install
     ```
 
 2.  **Start developing.**
@@ -29,7 +31,6 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
     yarn develop
     ```
 
